@@ -3,7 +3,8 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   //7-e bolende qaligi 1,2 veya 5 olan elementlerin sayi
+            
             Console.Write("Massivin uzunlugunu daxil edin: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
